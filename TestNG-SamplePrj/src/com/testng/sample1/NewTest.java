@@ -46,7 +46,7 @@ public class NewTest {
 	      Assert.assertEquals(actualTitle, expectedTitle);
 	      System.out.println("verifyHomepageTitle Id:- "
 					+ Thread.currentThread().getId());
-	      System.out.println("Git is added on 23/09/2017");
+	      System.out.println("Git is added on 23/09/2017 & modifed by Venkat");
 	      driver.close();
 	  }
 	  @Test
