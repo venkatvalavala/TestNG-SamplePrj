@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="TestListrener" parallel="methods" thread-count="8">
+  <listeners>
+		<listener class-name="com.testng.screenshot.ListenerClass" />
+	</listeners>
+
+	<test name="TestNG logs sample" preserve-order="true">
+		<classes>
+			<class name="com.testng.testlistner.LoggingClass">
+				<methods>
+					<include name="methodAddingNumbers" />
+					<include name="dividedByZero" />
+					<include name="methodSkip" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Command line suite -->
