@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <test name="Paralle Testing">
     <classes>
-      <class name="com.localserver.samples.Html5Page">
+      <class name="com.testng.sample1.HelloWorld"/>
+      <class name="com.testng.sample1.NewTest">
         <methods>
           <include name="verifyHomepageTitle"/>
+          <include name="TestCase1"/>
+          <include name="TestCase2"/>
+          <include name="TestCase3"/>
         </methods>
-      </class> <!-- com.localserver.samples.Html5Page -->
+      </class> <!-- com.testng.sample1.NewTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Paralle Testing -->
+</suite> <!-- Failed suite [Parallel test suite] -->

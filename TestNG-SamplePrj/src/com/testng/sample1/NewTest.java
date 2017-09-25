@@ -11,8 +11,9 @@ import org.testng.Assert;
 
 public class NewTest {
 	 public String baseUrl = "http://demo.guru99.com/selenium/newtours/";
-	// String driverPath = "C:/selenium-softs/chromedriver_win32/chromedriver.exe";
-	 String driverPath = "C://Users//sreer//venkat-java//workspace//TestNG-SamplePrj//lib//chromedriver.exe";
+	 String driverPath = "C:/selenium-softs/chromedriver_win32/chromedriver.exe";
+	// String driverPath = "C://Git-projs-docs//git-projs//TestNG-SamplePrj//TestNG-SamplePrj//lib//chromedriver.exe";
+	 
 	 public static WebDriver driver ; 	
 
 	    
